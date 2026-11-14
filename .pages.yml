@@ -68,6 +68,7 @@ content:
               - { name: ville, label: Ville, type: string }
               - { name: precision, label: "Précision (festival, date…)", type: string }
               - { name: prochaine, label: Prochaine date (en rouge), type: boolean }
+              - { name: lien, label: Lien de réservation (facultatif), type: string, description: "Adresse de la page de réservation (HelloAsso, salle, festival…). Le lieu devient cliquable. Pour la prochaine date, le lien général du site est utilisé si ce champ est vide." }
 
   # ------------------------------------------------------------------
   - name: troupe
