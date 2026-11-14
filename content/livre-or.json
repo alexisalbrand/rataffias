@@ -1,0 +1,37 @@
+{
+  "messages": [
+    {
+      "texte": "Époustouflant !!! Aussi bien que l’original ! Bravo !",
+      "mis_en_avant": true
+    },
+    {
+      "texte": "Super, génial, réjouissant bravo de A à Z",
+      "mis_en_avant": false
+    },
+    {
+      "texte": "Merci pour ce moment de vrai théâtre où la réalité rejoint la fantaisie",
+      "mis_en_avant": false
+    },
+    {
+      "texte": "Un très bon moment",
+      "mis_en_avant": false
+    },
+    {
+      "texte": "Exceptionnelle ! Pièce super bien jouée, un agréable moment de théâtre",
+      "mis_en_avant": false
+    },
+    {
+      "texte": "Belle mise en scène. Très bien joué et instructif",
+      "mis_en_avant": false
+    },
+    {
+      "texte": "Super ! Beaucoup de rythme",
+      "mis_en_avant": false
+    },
+    {
+      "texte": "Intéressant pour la culture cinéma. Bravo !",
+      "mis_en_avant": false
+    }
+  ],
+  "source": "Commentaires du public · Le Cercle des illusionnistes · Festival Tac au Tac, octobre 2022"
+}

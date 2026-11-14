@@ -1,0 +1,112 @@
+{
+  "spectacles": [
+    {
+      "titre": "Zaï Zaï Zaï Zaï",
+      "date_de_jeu": "Depuis mai 2024 · à l’affiche",
+      "date_a_preciser": false,
+      "auteur": "D’après la BD de Fabcaro.",
+      "notes": "",
+      "affiche": "media/affiches/zai.jpg",
+      "a_l_affiche": true
+    },
+    {
+      "titre": "Le Cercle des illusionnistes",
+      "date_de_jeu": "2021 – 2022",
+      "date_a_preciser": false,
+      "auteur": "D’Alexis Michalik.",
+      "notes": "Magie : Jean-Philippe Loupi.",
+      "affiche": "media/affiches/cercle-des-illusionnistes.jpg",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "Rhapsodies",
+      "date_de_jeu": "Date à préciser",
+      "date_a_preciser": true,
+      "auteur": "De Sylvain Levey.",
+      "notes": "Les coulisses de la téléréalité.",
+      "affiche": "media/affiches/rhapsodies.jpg",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "Après la pluie",
+      "date_de_jeu": "Date à préciser",
+      "date_a_preciser": true,
+      "auteur": "De Sergi Belbel.",
+      "notes": "",
+      "affiche": "media/affiches/apres-la-pluie.jpg",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "Le Révizor",
+      "date_de_jeu": "Date à préciser",
+      "date_a_preciser": true,
+      "auteur": "De Nicolas Gogol.",
+      "notes": "",
+      "affiche": "media/affiches/le-revizor.jpg",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "Chers parents",
+      "date_de_jeu": "2015",
+      "date_a_preciser": false,
+      "auteur": "Participation à l’initiative de la commune de Moirans.",
+      "notes": "",
+      "affiche": "",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "La nuit de Valognes",
+      "date_de_jeu": "2013 – 2014",
+      "date_a_preciser": false,
+      "auteur": "D’Éric-Emmanuel Schmitt.",
+      "notes": "Premier spectacle mis en scène par Henri Thomas.",
+      "affiche": "media/affiches/la-nuit-de-valognes.jpg",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "Danser à Lughnasa",
+      "date_de_jeu": "Date à préciser",
+      "date_a_preciser": true,
+      "auteur": "De Brian Friel.",
+      "notes": "",
+      "affiche": "media/affiches/danser-a-lughnasa.jpg",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "Chroniques villageoises",
+      "date_de_jeu": "Date à préciser",
+      "date_a_preciser": true,
+      "auteur": "Romasin-sur-Gorme, itinéraire bis.",
+      "notes": "Mise en scène Thierry Tochon.",
+      "affiche": "media/affiches/chroniques-villageoises.jpg",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "La visite de la vieille dame",
+      "date_de_jeu": "15 octobre 2010",
+      "date_a_preciser": false,
+      "auteur": "D’après Friedrich Dürrenmatt.",
+      "notes": "Adaptation et mise en scène Marie Neichel.",
+      "affiche": "media/affiches/la-visite-de-la-vieille-dame.jpg",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "Kroum l’ectoplasme",
+      "date_de_jeu": "25 septembre 2009",
+      "date_a_preciser": false,
+      "auteur": "De Hanokh Levin.",
+      "notes": "",
+      "affiche": "media/affiches/kroum-l-ectoplasme.jpg",
+      "a_l_affiche": false
+    },
+    {
+      "titre": "Titre à préciser",
+      "date_de_jeu": "5 juillet 2008",
+      "date_a_preciser": true,
+      "auteur": "D’Ödön von Horváth.",
+      "notes": "Corbelin, La Pardelière.",
+      "affiche": "media/affiches/horvath-2008.jpg",
+      "a_l_affiche": false
+    }
+  ]
+}

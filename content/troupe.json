@@ -1,0 +1,66 @@
+{
+  "photo_groupe": "media/troupe/troupe.jpg",
+  "legende_groupe": "La troupe au complet, autour des affiches de Zaï.",
+  "presentation": "Les Rataffias sont nés en 2009 à Moirans. Tous les deux ans, la troupe monte une nouvelle pièce et part la jouer sur les scènes et festivals de l’Isère et d’ailleurs.\n\nDepuis *La nuit de Valognes*, la troupe est mise en scène par Henri Thomas, de la Compagnie du Jour.",
+  "chiffres": [
+    {
+      "nombre": "2009",
+      "libelle": "année de création"
+    },
+    {
+      "nombre": "10",
+      "libelle": "comédien·ne·s"
+    },
+    {
+      "nombre": "2",
+      "libelle": "technicien·ne·s"
+    },
+    {
+      "nombre": "1",
+      "libelle": "metteur en scène"
+    }
+  ],
+  "membres": [
+    {
+      "prenom": "Sylvie",
+      "photo": "media/troupe/sylvie.jpg"
+    },
+    {
+      "prenom": "Erik",
+      "photo": "media/troupe/erik.jpg"
+    },
+    {
+      "prenom": "Christine",
+      "photo": "media/troupe/christine.jpg"
+    },
+    {
+      "prenom": "Jean",
+      "photo": "media/troupe/jean.jpg"
+    },
+    {
+      "prenom": "Edith",
+      "photo": "media/troupe/edith.jpg"
+    },
+    {
+      "prenom": "Béatrice",
+      "photo": "media/troupe/beatrice.jpg"
+    },
+    {
+      "prenom": "Jean-Claude",
+      "photo": "media/troupe/jean-claude.jpg"
+    },
+    {
+      "prenom": "Laurence",
+      "photo": "media/troupe/laurence.jpg"
+    },
+    {
+      "prenom": "Jérémy",
+      "photo": "media/troupe/jeremy.jpg"
+    },
+    {
+      "prenom": "Photo à venir…",
+      "photo": ""
+    }
+  ],
+  "note": "Sur scène dans Zaï Zaï Zaï Zaï. Photos des technicien·ne·s et du metteur en scène à venir…"
+}

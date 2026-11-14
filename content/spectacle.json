@@ -1,0 +1,40 @@
+{
+  "titre": "Zaï Zaï Zaï Zaï",
+  "accroche": "Notre adaptation de la BD culte de **Fabcaro**. Une course-poursuite absurde pour une carte de fidélité oubliée.",
+  "prochaine": {
+    "afficher": true,
+    "date": "Samedi 28 novembre",
+    "heure": "20h30",
+    "lieu": "Salle de la Murgière",
+    "ville": "38620 Massieu",
+    "public": "Tout public dès 10 ans",
+    "tarif": "8 €",
+    "lien": "https://www.helloasso.com/associations/les-rataffias/evenements/zai-zai-zai-zai-theatre-d-apres-la-bd-de-fabcaro"
+  },
+  "synopsis": "Un auteur de bande dessinée se fait arrêter à la caisse d’un supermarché : il a oublié sa carte de fidélité. Il s’enfuit. Commence alors une cavale complètement absurde qui fait de lui l’ennemi public n°1.\n\nSa famille, les médias, la police, les voisins : tout le monde s’en mêle. Une parodie mordante d’une société de consommation obsédée par la sécurité, à voir en famille.",
+  "bande_annonce": "https://www.youtube.com/watch?v=kgIgWqrjhwA",
+  "infos": [
+    {
+      "libelle": "D’après",
+      "valeur": "Fabcaro"
+    },
+    {
+      "libelle": "Genre",
+      "valeur": "Comédie"
+    },
+    {
+      "libelle": "Conseil artistique",
+      "valeur": "Henri Thomas"
+    },
+    {
+      "libelle": "Création",
+      "valeur": "Moirans, 24–26 mai 2024"
+    },
+    {
+      "libelle": "Âge",
+      "valeur": "Dès 10 ans"
+    }
+  ],
+  "affiche": "media/affiches/zai.jpg",
+  "affiche_description": "Affiche de Zaï Zaï Zaï Zaï, Cie Les Rataffias : samedi 28 novembre, 20h30, salle de la Murgière à Massieu, tarif 8 €, réservation obligatoire sur HelloAsso."
+}

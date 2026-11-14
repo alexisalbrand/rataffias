@@ -1,0 +1,21 @@
+{
+  "nom": "Les Rataffias",
+  "sous_titre": "Troupe de théâtre amateur · Moirans, Isère",
+  "pied_de_page": "Théâtre amateur depuis 2009 · Moirans, Isère",
+  "facebook": "https://www.facebook.com/troupedesrataffias",
+  "lien_reservation": "https://www.helloasso.com/associations/les-rataffias/evenements/zai-zai-zai-zai-theatre-d-apres-la-bd-de-fabcaro",
+  "contact": {
+    "accroche": "Vous organisez un festival ou une soirée théâtre ? Faites-nous jouer chez vous.",
+    "nom": "Béatrice",
+    "email": "cielesrataffias@gmail.com"
+  },
+  "partenaires": {
+    "intro": "Merci à nos partenaires, institutions et organismes qui nous soutiennent financièrement dans nos projets.",
+    "liste": [
+      {
+        "nom": "Mairie de Moirans",
+        "detail": "Une subvention municipale, le personnel communal et la mise à disposition des salles municipales."
+      }
+    ]
+  }
+}

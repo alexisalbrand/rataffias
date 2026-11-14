@@ -1,0 +1,55 @@
+{
+  "photos": [
+    {
+      "image": "media/photos/photo-01.jpg",
+      "legende": "Zaï Zaï Zaï Zaï · Noyarey 2025",
+      "description": "Deux comédiens sur scène dans Zaï Zaï Zaï Zaï"
+    },
+    {
+      "image": "media/photos/photo-02.jpg",
+      "legende": "Zaï Zaï Zaï Zaï · février 2025",
+      "description": "Le fugitif de Zaï, poireau à la main"
+    },
+    {
+      "image": "media/photos/photo-03.jpg",
+      "legende": "Zaï Zaï Zaï Zaï · Noyarey 2025",
+      "description": "Le chœur en grandes robes pourpres et argent"
+    },
+    {
+      "image": "media/photos/photo-04.jpg",
+      "legende": "Zaï Zaï Zaï Zaï · Noyarey 2025",
+      "description": "Trois comédiens, dont une journaliste au micro"
+    },
+    {
+      "image": "media/photos/photo-05.jpg",
+      "legende": "Moirans · mai 2024",
+      "description": "Une comédienne en perruque blonde face à un homme lisant le journal"
+    },
+    {
+      "image": "media/photos/photo-06.jpg",
+      "legende": "La chanson",
+      "description": "Trois comédiennes chantent, poireaux en main"
+    },
+    {
+      "image": "media/photos/photo-07.jpg",
+      "legende": "Zaï Zaï Zaï Zaï · février 2025",
+      "description": "Le fugitif en sweat bleu traverse la scène"
+    },
+    {
+      "image": "media/photos/photo-08.jpg",
+      "legende": "Le chœur et le piano · avril 2026",
+      "description": "La troupe en robes de chœur, le pianiste au premier plan"
+    },
+    {
+      "image": "media/photos/photo-09.jpg",
+      "legende": "Jean-Claude au piano",
+      "description": "Le pianiste de dos, seul dans la lumière"
+    },
+    {
+      "image": "media/photos/photo-10.jpg",
+      "legende": "En répétition",
+      "description": "La troupe en répétition, mégaphone et casquettes"
+    }
+  ],
+  "credit": "Photos de Noyarey 2025 : Gérald Desseux."
+}
