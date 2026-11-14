@@ -1,0 +1,219 @@
+# Configuration de l'interface d'administration (Pages CMS – https://app.pagescms.org)
+# Chaque bloc ci-dessous devient une rubrique dans le menu de gauche.
+
+media:
+  input: media
+  output: media
+  rename: safe
+  categories: [image]
+
+settings:
+  commit:
+    templates:
+      update: "Mise à jour : {path}"
+
+content:
+  # ------------------------------------------------------------------
+  - name: spectacle
+    label: "Spectacle à l'affiche"
+    type: file
+    path: content/spectacle.json
+    format: json
+    fields:
+      - { name: titre, label: Titre du spectacle, type: string, required: true, description: "Chaque mot s'affiche sur une ligne en grand en haut de la page." }
+      - { name: accroche, label: Accroche, type: text, description: "Phrase sous le titre. **mot** = gras." }
+      - name: prochaine
+        label: Prochaine représentation (le billet jaune)
+        type: object
+        fields:
+          - { name: afficher, label: Afficher le billet, type: boolean, description: "Décocher s'il n'y a pas de date prévue." }
+          - { name: date, label: Date, type: string, description: "Ex. : Samedi 28 novembre" }
+          - { name: heure, label: Heure, type: string }
+          - { name: lieu, label: Lieu, type: string }
+          - { name: ville, label: Ville, type: string }
+          - { name: public, label: Public, type: string }
+          - { name: tarif, label: Tarif, type: string }
+          - { name: lien, label: Lien de réservation, type: string }
+      - { name: synopsis, label: Résumé, type: text, description: "Laisser une ligne vide entre deux paragraphes." }
+      - { name: bande_annonce, label: Lien de la bande-annonce (YouTube), type: string }
+      - name: infos
+        label: Fiche technique
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{libelle} : {valeur}" } }
+        fields:
+          - { name: libelle, label: Libellé, type: string }
+          - { name: valeur, label: Valeur, type: string }
+      - { name: affiche, label: Affiche, type: image }
+      - { name: affiche_description, label: Description de l'affiche (pour les malvoyants), type: text }
+
+  # ------------------------------------------------------------------
+  - name: representations
+    label: Représentations (dates)
+    type: file
+    path: content/representations.json
+    format: json
+    fields:
+      - name: annees
+        label: Années
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{annee}" } }
+        description: "L'année la plus récente en premier."
+        fields:
+          - { name: annee, label: Année, type: string }
+          - name: lieux
+            label: Lieux
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{ville} {precision}" } }
+            fields:
+              - { name: ville, label: Ville, type: string }
+              - { name: precision, label: "Précision (festival, date…)", type: string }
+              - { name: prochaine, label: Prochaine date (en rouge), type: boolean }
+
+  # ------------------------------------------------------------------
+  - name: troupe
+    label: La troupe
+    type: file
+    path: content/troupe.json
+    format: json
+    fields:
+      - { name: photo_groupe, label: Photo de groupe, type: image }
+      - { name: legende_groupe, label: Légende de la photo de groupe, type: string }
+      - { name: presentation, label: Présentation, type: text, description: "Ligne vide = nouveau paragraphe. *mot* = italique." }
+      - name: chiffres
+        label: Chiffres clés
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{nombre} {libelle}" } }
+        fields:
+          - { name: nombre, label: Nombre, type: string }
+          - { name: libelle, label: Libellé, type: string }
+      - name: membres
+        label: Membres
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{prenom}" } }
+        description: "Sans photo, une case « ? » s'affiche."
+        fields:
+          - { name: prenom, label: Prénom, type: string }
+          - { name: photo, label: Photo (carrée de préférence), type: image }
+      - { name: note, label: Note sous les photos, type: string }
+
+  # ------------------------------------------------------------------
+  - name: photos
+    label: Photos (galerie)
+    type: file
+    path: content/photos.json
+    format: json
+    fields:
+      - name: photos
+        label: Photos
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{legende}" } }
+        fields:
+          - { name: image, label: Photo, type: image }
+          - { name: legende, label: Légende, type: string }
+          - { name: description, label: Description (pour les malvoyants), type: string }
+      - { name: credit, label: Crédit photo, type: string }
+
+  # ------------------------------------------------------------------
+  - name: repertoire
+    label: Répertoire (spectacles passés)
+    type: file
+    path: content/repertoire.json
+    format: json
+    fields:
+      - name: spectacles
+        label: Spectacles
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{titre} · {date_de_jeu}" } }
+        description: "Du plus récent au plus ancien."
+        fields:
+          - { name: titre, label: Titre, type: string }
+          - { name: date_de_jeu, label: Date(s) de jeu, type: string, description: "Ex. : 15 octobre 2010, ou 2013 – 2014" }
+          - { name: date_a_preciser, label: Date encore à confirmer, type: boolean }
+          - { name: auteur, label: Auteur, type: string, description: "Ex. : D'Alexis Michalik." }
+          - { name: notes, label: Notes, type: string }
+          - { name: affiche, label: Affiche, type: image }
+          - { name: a_l_affiche, label: Spectacle actuel (trait rouge), type: boolean }
+
+  # ------------------------------------------------------------------
+  - name: livre-or
+    label: Livre d'or
+    type: file
+    path: content/livre-or.json
+    format: json
+    fields:
+      - name: messages
+        label: Messages du public
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{texte}" } }
+        fields:
+          - { name: texte, label: Message, type: text }
+          - { name: mis_en_avant, label: En grand, type: boolean }
+      - { name: source, label: Source (sous les messages), type: string }
+
+  # ------------------------------------------------------------------
+  - name: presse
+    label: Presse
+    type: file
+    path: content/presse.json
+    format: json
+    fields:
+      - name: a_la_une
+        label: Article à la une
+        type: object
+        fields:
+          - { name: afficher, label: Afficher, type: boolean }
+          - { name: source, label: Source et date, type: string }
+          - { name: titre, label: Titre, type: string }
+          - { name: chiffre, label: Chiffre en grand (facultatif), type: string }
+          - { name: chiffre_libelle, label: Libellé du chiffre, type: string }
+          - { name: resume, label: Résumé, type: text }
+          - { name: citations, label: Citations, type: string, list: true }
+          - { name: lien, label: Lien, type: string }
+          - { name: lien_libelle, label: Texte du lien, type: string }
+      - { name: archives_intro, label: Texte d'introduction des archives, type: string }
+      - name: archives
+        label: Archives (liste)
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{date} · {detail}" } }
+        fields:
+          - { name: date, label: Date, type: string }
+          - { name: detail, label: Détail, type: string }
+      - name: coupures
+        label: Coupures de presse (images)
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{legende}" } }
+        fields:
+          - { name: image, label: Image de la coupure, type: image }
+          - { name: legende, label: Légende, type: string }
+
+  # ------------------------------------------------------------------
+  - name: general
+    label: Contact, partenaires et infos générales
+    type: file
+    path: content/general.json
+    format: json
+    fields:
+      - { name: nom, label: Nom de la troupe, type: string }
+      - { name: sous_titre, label: Sous-titre (bandeau du haut), type: string }
+      - { name: pied_de_page, label: Texte du pied de page, type: string }
+      - { name: facebook, label: Lien Facebook, type: string }
+      - { name: lien_reservation, label: Lien du bouton « Réserver », type: string }
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - { name: accroche, label: Phrase d'accroche, type: text }
+          - { name: nom, label: Prénom du contact, type: string }
+          - { name: email, label: E-mail, type: string }
+      - name: partenaires
+        label: Partenaires
+        type: object
+        fields:
+          - { name: intro, label: Texte d'introduction, type: text }
+          - name: liste
+            label: Liste
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{nom}" } }
+            fields:
+              - { name: nom, label: Nom, type: string }
+              - { name: detail, label: Détail du soutien, type: text }
