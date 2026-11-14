@@ -145,6 +145,12 @@ section.act { padding-block: 72px; border-top: 1px solid var(--line); }
 .places li small { color: var(--muted); font-size: .82rem; margin-left: 4px; }
 .places li.next { background: var(--cherry); color: var(--cherry-ink); border-color: var(--cherry); font-weight: 600; }
 .places li.next small { color: inherit; opacity: .85; }
+.places li.has-link { padding: 0; }
+.places li.has-link a { display: inline-flex; align-items: baseline; gap: 4px; padding: 6px 14px; border-radius: inherit; text-decoration: none; color: inherit; }
+.places li.has-link:hover { border-color: var(--cherry); }
+.places li.next.has-link:hover { filter: brightness(1.08); }
+.places li .go { font-size: .78rem; font-weight: 700; margin-left: 6px; color: var(--cherry); white-space: nowrap; }
+.places li.next .go { color: inherit; }
 
 /* Répertoire */
 .rep { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; list-style: none; margin: 0; padding: 0; }
