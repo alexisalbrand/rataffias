@@ -113,7 +113,14 @@ const photos = `<section class="act" id="photos"><div class="wrap">
 
 // ---------- Acte III ----------
 const years = list(rp.annees).map((y) => {
-  const lis = list(y.lieux).map((l) => `<li${l.prochaine ? ' class="next"' : ''}>${e(l.ville)}${l.precision ? ` <small>${e(l.precision)}</small>` : ''}</li>`).join('');
+  const lis = list(y.lieux).map((l) => {
+    const inner = `${e(l.ville)}${l.precision ? ` <small>${e(l.precision)}</small>` : ''}`;
+    // Lien de réservation : celui du lieu, sinon (pour la prochaine date) celui du site
+    const lien = l.lien || (l.prochaine ? resa : '');
+    const cls = [l.prochaine ? 'next' : '', lien ? 'has-link' : ''].filter(Boolean).join(' ');
+    const body = lien ? ext(lien, `${inner} <span class="go" aria-hidden="true">Réserver ↗</span>`) : inner;
+    return `<li${cls ? ` class="${cls}"` : ''}>${body}</li>`;
+  }).join('');
   return `<div class="year"><h3>${e(y.annee)}</h3><ul class="places">${lis}</ul></div>`;
 }).join('');
 const acte3 = `<section class="act" id="tournee"><div class="wrap">
