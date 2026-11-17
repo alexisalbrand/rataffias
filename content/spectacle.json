@@ -2,9 +2,9 @@
   "titre": "Zaï Zaï Zaï Zaï",
   "accroche": "Notre adaptation de la BD culte de **Fabcaro**. Une course-poursuite absurde pour une carte de fidélité oubliée.",
   "prochaine": {
-    "afficher": false,
+    "afficher": true,
     "date": "Samedi 28 novembre",
-    "heure": "20h31",
+    "heure": "20h30",
     "lieu": "Salle de la Murgière",
     "ville": "38620 Massieu",
     "public": "Tout public dès 10 ans",
