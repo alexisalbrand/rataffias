@@ -10,7 +10,7 @@
     },
     {
       "titre": "Le Cercle des illusionnistes",
-      "date_de_jeu": "2021 – 2022",
+      "date_de_jeu": "2021 – 2023",
       "date_a_preciser": false,
       "auteur": "D’Alexis Michalik.",
       "notes": "Magie : Jean-Philippe Loupi.",
@@ -19,7 +19,7 @@
     },
     {
       "titre": "Rhapsodies",
-      "date_de_jeu": "Date à préciser",
+      "date_de_jeu": "2017 -2019",
       "date_a_preciser": true,
       "auteur": "De Sylvain Levey.",
       "notes": "Les coulisses de la téléréalité.",
@@ -28,7 +28,7 @@
     },
     {
       "titre": "Après la pluie",
-      "date_de_jeu": "Date à préciser",
+      "date_de_jeu": "2016 - 2019",
       "date_a_preciser": true,
       "auteur": "De Sergi Belbel.",
       "affiche": "media/affiches/apres-la-pluie.jpg",
@@ -36,7 +36,7 @@
     },
     {
       "titre": "Le Révizor",
-      "date_de_jeu": "Date à préciser",
+      "date_de_jeu": "2019 - 2020",
       "date_a_preciser": true,
       "auteur": "De Nicolas Gogol.",
       "affiche": "media/affiches/le-revizor.jpg",
@@ -60,7 +60,7 @@
     },
     {
       "titre": "Danser à Lughnasa",
-      "date_de_jeu": "Date à préciser",
+      "date_de_jeu": "2011",
       "date_a_preciser": true,
       "auteur": "De Brian Friel.",
       "affiche": "media/affiches/danser-a-lughnasa.jpg",
@@ -68,7 +68,7 @@
     },
     {
       "titre": "Chroniques villageoises",
-      "date_de_jeu": "Date à préciser",
+      "date_de_jeu": "2012 - 2014",
       "date_a_preciser": true,
       "auteur": "Romasin-sur-Gorme, itinéraire bis.",
       "notes": "Mise en scène Thierry Tochon.",
@@ -77,7 +77,7 @@
     },
     {
       "titre": "La visite de la vieille dame",
-      "date_de_jeu": "15 octobre 2010",
+      "date_de_jeu": "2010",
       "date_a_preciser": false,
       "auteur": "D’après Friedrich Dürrenmatt.",
       "notes": "Adaptation et mise en scène Marie Neichel.",
