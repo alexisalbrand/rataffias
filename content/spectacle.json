@@ -2,7 +2,7 @@
   "titre": "Nouveau titre ",
   "accroche": "Notre adaptation de la BD culte de **Fabcaro**. Une course-poursuite absurde pour une carte de fidélité oubliée.",
   "prochaine": {
-    "afficher": true,
+    "afficher": false,
     "date": "Samedi 28 novembre",
     "heure": "20h30",
     "lieu": "Salle de la Murgière",
